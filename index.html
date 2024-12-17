@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC 
+"-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang = "EN" xml:lang = "EN" dir = "ltr">
+<head>
+<meta http-equiv="content-type" content="text/xml; charset=utf-8" />
+
+<title>Diff Report List</title>
+<style type = "text/css">
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+<div style="padding-left: 100px;padding-top:100px;font-family: verdana;font-size: 12px;">
+<h2>Diff Report List</h2>
+
+<hr /><br />
+
+<strong>Latest: </strong><a id="latest" href="a">b</a><br /><br />
+
+<hr /><br />
+
+<div id="all">
+
+
+
+</div>
+
+</div>
+
+
+<script>
+
+var list = ["2.35-2.36","2.32-2.33","2.27-2.28","2.26-2.27","2.25-2.26","2.22-2.23","2.17-2.19","2.15-2.17","2.08-2.10","2.06-2.08","2.02-2.08"];
+
+var latest = $("a#latest");
+//console.log(latest);
+latest.prop("href","./"+list[0]+".html").html(list[0]);
+//console.log(latest);
+
+var all = $("div#all");
+var html = "";
+$(list).each(function() {
+
+html += '<a id="latest" href="./'+this+'.html">'+this+'</a><br />';
+
+});
+all.html(html);
+
+</script>
+</body>
+</html>

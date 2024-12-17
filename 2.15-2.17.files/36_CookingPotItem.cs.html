@@ -1,0 +1,1014 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>WinMerge File Compare Report</title>
+<style type="text/css">
+<!--
+table {margin: 0; border: 1px solid #a0a0a0; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);}
+td,th {word-break: break-all; font-size: 11pt;padding: 0 3px;}
+tr { vertical-align: top; }
+.title {color: white; background-color: blue; vertical-align: top; padding: 4px 4px; background: linear-gradient(mediumblue, darkblue);}
+.sf3b2 {color: #000000; background-color: #ffffff; }
+.sf3b5 {color: #000000; background-color: #0078d7; }
+.sf3b14 {color: #000000; background-color: #ffa0a0; }
+.sf3b16 {color: #000000; background-color: #f1e2ad; }
+.sf3b18 {color: #000000; background-color: #ffaa82; }
+.sf3b19 {color: #000000; background-color: #c8816c; }
+.sf6b2 {color: #ffffff; background-color: #ffffff; }
+.sf6b5 {color: #ffffff; background-color: #0078d7; }
+.sf6b14 {color: #ffffff; background-color: #ffa0a0; }
+.sf6b16 {color: #ffffff; background-color: #f1e2ad; }
+.sf6b18 {color: #ffffff; background-color: #ffaa82; }
+.sf6b19 {color: #ffffff; background-color: #c8816c; }
+.sf7b2 {color: #0000ff; background-color: #ffffff; font-weight: bold; }
+.sf7b5 {color: #0000ff; background-color: #0078d7; font-weight: bold; }
+.sf7b14 {color: #0000ff; background-color: #ffa0a0; font-weight: bold; }
+.sf7b16 {color: #0000ff; background-color: #f1e2ad; font-weight: bold; }
+.sf7b18 {color: #0000ff; background-color: #ffaa82; font-weight: bold; }
+.sf7b19 {color: #0000ff; background-color: #c8816c; font-weight: bold; }
+.sf8b2 {color: #800080; background-color: #ffffff; }
+.sf8b5 {color: #800080; background-color: #0078d7; }
+.sf8b14 {color: #800080; background-color: #ffa0a0; }
+.sf8b16 {color: #800080; background-color: #f1e2ad; }
+.sf8b18 {color: #800080; background-color: #ffaa82; }
+.sf8b19 {color: #800080; background-color: #c8816c; }
+.sf9b2 {color: #008000; background-color: #ffffff; }
+.sf9b5 {color: #008000; background-color: #0078d7; }
+.sf9b14 {color: #008000; background-color: #ffa0a0; }
+.sf9b16 {color: #008000; background-color: #f1e2ad; }
+.sf9b18 {color: #008000; background-color: #ffaa82; }
+.sf9b19 {color: #008000; background-color: #c8816c; }
+.sf10b2 {color: #ff0000; background-color: #ffffff; }
+.sf10b5 {color: #ff0000; background-color: #0078d7; }
+.sf10b14 {color: #ff0000; background-color: #ffa0a0; }
+.sf10b16 {color: #ff0000; background-color: #f1e2ad; }
+.sf10b18 {color: #ff0000; background-color: #ffaa82; }
+.sf10b19 {color: #ff0000; background-color: #c8816c; }
+.sf11b2 {color: #606060; background-color: #ffffff; }
+.sf11b5 {color: #606060; background-color: #0078d7; }
+.sf11b14 {color: #606060; background-color: #ffa0a0; }
+.sf11b16 {color: #606060; background-color: #f1e2ad; }
+.sf11b18 {color: #606060; background-color: #ffaa82; }
+.sf11b19 {color: #606060; background-color: #c8816c; }
+.sf12b2 {color: #800000; background-color: #ffffff; }
+.sf12b5 {color: #800000; background-color: #0078d7; }
+.sf12b14 {color: #800000; background-color: #ffa0a0; }
+.sf12b16 {color: #800000; background-color: #f1e2ad; }
+.sf12b18 {color: #800000; background-color: #ffaa82; }
+.sf12b19 {color: #800000; background-color: #c8816c; }
+.sf13b2 {color: #0080c0; background-color: #ffffff; }
+.sf13b5 {color: #0080c0; background-color: #0078d7; }
+.sf13b14 {color: #0080c0; background-color: #ffa0a0; }
+.sf13b16 {color: #0080c0; background-color: #f1e2ad; }
+.sf13b18 {color: #0080c0; background-color: #ffaa82; }
+.sf13b19 {color: #0080c0; background-color: #c8816c; }
+.sf15b2 {color: #000000; background-color: #ffffff; }
+.sf15b5 {color: #000000; background-color: #0078d7; }
+.sf15b14 {color: #000000; background-color: #ffa0a0; }
+.sf15b16 {color: #000000; background-color: #f1e2ad; }
+.sf15b18 {color: #000000; background-color: #ffaa82; }
+.sf15b19 {color: #000000; background-color: #c8816c; }
+.sf17b2 {color: #000000; background-color: #ffffff; }
+.sf17b5 {color: #000000; background-color: #0078d7; }
+.sf17b14 {color: #000000; background-color: #ffa0a0; }
+.sf17b16 {color: #000000; background-color: #f1e2ad; }
+.sf17b18 {color: #000000; background-color: #ffaa82; }
+.sf17b19 {color: #000000; background-color: #c8816c; }
+.sf20b2 {color: #000080; background-color: #ffffff; }
+.sf20b5 {color: #000080; background-color: #0078d7; }
+.sf20b14 {color: #000080; background-color: #ffa0a0; }
+.sf20b16 {color: #000080; background-color: #f1e2ad; }
+.sf20b18 {color: #000080; background-color: #ffaa82; }
+.sf20b19 {color: #000080; background-color: #c8816c; }
+.sf21b2 {color: #0080c0; background-color: #ffffff; }
+.sf21b5 {color: #0080c0; background-color: #0078d7; }
+.sf21b14 {color: #0080c0; background-color: #ffa0a0; }
+.sf21b16 {color: #0080c0; background-color: #f1e2ad; }
+.sf21b18 {color: #0080c0; background-color: #ffaa82; }
+.sf21b19 {color: #0080c0; background-color: #c8816c; }
+.sf3b2i {color: #ababab; background-color: #ffffff; }
+.sf3b5i {color: #005190; background-color: #0078d7; }
+.sf3b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf3b16i {color: #a19774; background-color: #f1e2ad; }
+.sf3b18i {color: #ab7257; background-color: #ffaa82; }
+.sf3b19i {color: #865749; background-color: #c8816c; }
+.sf6b2i {color: #ffffff; background-color: #ffffff; }
+.sf6b5i {color: #54a4e4; background-color: #0078d7; }
+.sf6b14i {color: #ffbfbf; background-color: #ffa0a0; }
+.sf6b16i {color: #f5ebc8; background-color: #f1e2ad; }
+.sf6b18i {color: #ffc6ab; background-color: #ffaa82; }
+.sf6b19i {color: #daaa9c; background-color: #c8816c; }
+.sf7b2i {color: #ababff; background-color: #ffffff; font-weight: bold; }
+.sf7b5i {color: #0051e4; background-color: #0078d7; font-weight: bold; }
+.sf7b14i {color: #ab6bbf; background-color: #ffa0a0; font-weight: bold; }
+.sf7b16i {color: #a197c8; background-color: #f1e2ad; font-weight: bold; }
+.sf7b18i {color: #ab72ab; background-color: #ffaa82; font-weight: bold; }
+.sf7b19i {color: #86579c; background-color: #c8816c; font-weight: bold; }
+.sf8b2i {color: #d5abd5; background-color: #ffffff; }
+.sf8b5i {color: #2a51bb; background-color: #0078d7; }
+.sf8b14i {color: #d56b96; background-color: #ffa0a0; }
+.sf8b16i {color: #cc979f; background-color: #f1e2ad; }
+.sf8b18i {color: #d57282; background-color: #ffaa82; }
+.sf8b19i {color: #b15772; background-color: #c8816c; }
+.sf9b2i {color: #abd5ab; background-color: #ffffff; }
+.sf9b5i {color: #007a90; background-color: #0078d7; }
+.sf9b14i {color: #ab966b; background-color: #ffa0a0; }
+.sf9b16i {color: #a1c274; background-color: #f1e2ad; }
+.sf9b18i {color: #ab9d57; background-color: #ffaa82; }
+.sf9b19i {color: #868149; background-color: #c8816c; }
+.sf10b2i {color: #ffabab; background-color: #ffffff; }
+.sf10b5i {color: #545190; background-color: #0078d7; }
+.sf10b14i {color: #ff6b6b; background-color: #ffa0a0; }
+.sf10b16i {color: #f59774; background-color: #f1e2ad; }
+.sf10b18i {color: #ff7257; background-color: #ffaa82; }
+.sf10b19i {color: #da5749; background-color: #c8816c; }
+.sf11b2i {color: #cbcbcb; background-color: #ffffff; }
+.sf11b5i {color: #1f71b0; background-color: #0078d7; }
+.sf11b14i {color: #cb8b8b; background-color: #ffa0a0; }
+.sf11b16i {color: #c1b794; background-color: #f1e2ad; }
+.sf11b18i {color: #cb9277; background-color: #ffaa82; }
+.sf11b19i {color: #a67769; background-color: #c8816c; }
+.sf12b2i {color: #d5abab; background-color: #ffffff; }
+.sf12b5i {color: #2a5190; background-color: #0078d7; }
+.sf12b14i {color: #d56b6b; background-color: #ffa0a0; }
+.sf12b16i {color: #cc9774; background-color: #f1e2ad; }
+.sf12b18i {color: #d57257; background-color: #ffaa82; }
+.sf12b19i {color: #b15749; background-color: #c8816c; }
+.sf13b2i {color: #abd5eb; background-color: #ffffff; }
+.sf13b5i {color: #007ad0; background-color: #0078d7; }
+.sf13b14i {color: #ab96aa; background-color: #ffa0a0; }
+.sf13b16i {color: #a1c2b3; background-color: #f1e2ad; }
+.sf13b18i {color: #ab9d96; background-color: #ffaa82; }
+.sf13b19i {color: #868187; background-color: #c8816c; }
+.sf15b2i {color: #ababab; background-color: #ffffff; }
+.sf15b5i {color: #005190; background-color: #0078d7; }
+.sf15b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf15b16i {color: #a19774; background-color: #f1e2ad; }
+.sf15b18i {color: #ab7257; background-color: #ffaa82; }
+.sf15b19i {color: #865749; background-color: #c8816c; }
+.sf17b2i {color: #ababab; background-color: #ffffff; }
+.sf17b5i {color: #005190; background-color: #0078d7; }
+.sf17b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf17b16i {color: #a19774; background-color: #f1e2ad; }
+.sf17b18i {color: #ab7257; background-color: #ffaa82; }
+.sf17b19i {color: #865749; background-color: #c8816c; }
+.sf20b2i {color: #ababd5; background-color: #ffffff; }
+.sf20b5i {color: #0051bb; background-color: #0078d7; }
+.sf20b14i {color: #ab6b96; background-color: #ffa0a0; }
+.sf20b16i {color: #a1979f; background-color: #f1e2ad; }
+.sf20b18i {color: #ab7282; background-color: #ffaa82; }
+.sf20b19i {color: #865772; background-color: #c8816c; }
+.sf21b2i {color: #abd5eb; background-color: #ffffff; }
+.sf21b5i {color: #007ad0; background-color: #0078d7; }
+.sf21b14i {color: #ab96aa; background-color: #ffa0a0; }
+.sf21b16i {color: #a1c2b3; background-color: #f1e2ad; }
+.sf21b18i {color: #ab9d96; background-color: #ffaa82; }
+.sf21b19i {color: #868187; background-color: #c8816c; }
+.ln {text-align: right; word-break: normal; color: #000000; background-color: #f0f0f0;}
+-->
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" style="width:100%;">
+<colgroup>
+<col style="width: 3.2em;" />
+<col style="width: calc(100vw / 2 - 3.2em);" />
+<col style="width: 3.2em;" />
+<col style="width: calc(100vw / 2 - 3.2em);" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2" class="title">C:\TLD-Assembly-Archive\2.15\call_analysis_cs\CookingPotItem.cs</th>
+<th colspan="2" class="title">C:\TLD-Assembly-Archive\2.17\call_analysis_cs\CookingPotItem.cs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="ln">1</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">System</span><span class="sf11b2">;</span></code></td>
+<td class="ln">1</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">System</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">2</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Cpp2ILInjected</span><span class="sf11b2">.</span><span class="sf3b2">CallAnalysis</span><span class="sf11b2">;</span></code></td>
+<td class="ln">2</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Cpp2ILInjected</span><span class="sf11b2">.</span><span class="sf3b2">CallAnalysis</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">3</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">Cooking</span><span class="sf11b2">;</span></code></td>
+<td class="ln">3</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">Cooking</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d1" href="#d1">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">4</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">using</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;</span><span style="color: #000000; background-color: #fbf2bf; ">TLD</span><span style="color: #000000; background-color: #fbf2bf; ">.</span><span style="color: #000000; background-color: #fbf2bf; ">GameplayTags</span><span style="color: #000000; background-color: #fbf2bf; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">4</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">Gear</span><span class="sf11b2">;</span></code></td>
+<td class="ln">5</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">Gear</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">5</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">PDID</span><span class="sf11b2">;</span></code></td>
+<td class="ln">6</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">PDID</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">6</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">SaveState</span><span class="sf11b2">;</span></code></td>
+<td class="ln">7</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">SaveState</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">7</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">Serialization</span><span class="sf11b2">;</span></code></td>
+<td class="ln">8</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">Serialization</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">8</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">UI</span><span class="sf11b2">.</span><span class="sf3b2">Generics</span><span class="sf11b2">;</span></code></td>
+<td class="ln">9</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">TLD</span><span class="sf11b2">.</span><span class="sf3b2">UI</span><span class="sf11b2">.</span><span class="sf3b2">Generics</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">9</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">;</span></code></td>
+<td class="ln">10</td><td class="sf3b2"><code><span class="sf7b2">using</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d2" href="#d2">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">11</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">using</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;</span><span style="color: #000000; background-color: #fbf2bf; ">UnityEngine</span><span style="color: #000000; background-color: #fbf2bf; ">.</span><span style="color: #000000; background-color: #fbf2bf; ">Pool</span><span style="color: #000000; background-color: #fbf2bf; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">10</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">12</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">11</td><td class="sf3b2"><code><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">class</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">&nbsp;: </span><span class="sf3b2">MonoBehaviour</span></code></td>
+<td class="ln">13</td><td class="sf3b2"><code><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">class</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">&nbsp;: </span><span class="sf3b2">MonoBehaviour</span></code></td>
+</tr>
+<tr>
+<td class="ln">12</td><td class="sf3b2"><code><span class="sf11b2">{</span></code></td>
+<td class="ln">14</td><td class="sf3b2"><code><span class="sf11b2">{</span></code></td>
+</tr>
+<tr>
+<td class="ln">13</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">enum</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">CookingState</span></code></td>
+<td class="ln">15</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">enum</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">CookingState</span></code></td>
+</tr>
+<tr>
+<td class="ln">14</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">16</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">148</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">150</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">149</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">m_HasDoneReattachCheck</span><span class="sf11b2">;</span></code></td>
+<td class="ln">151</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">m_HasDoneReattachCheck</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">150</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">152</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">151</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">m_CookingStateEventCooldown</span><span class="sf11b2">;</span></code></td>
+<td class="ln">153</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">m_CookingStateEventCooldown</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">152</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">154</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d3" href="#d3">153</a></td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">private</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">static</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">CookingPotItemSaveDataProxy</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span class="sf17b16">m</span><span style="color: #000000; background-color: #efcb05; ">_CookingPotItemSaveDataProxy</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+<td class="ln">155</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">private</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">static</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span class="sf17b18">readonly </span><span style="color: #000000; background-color: #efcb05; ">CookingPotItemSaveDataProxy</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span class="sf17b16">s</span><span style="color: #000000; background-color: #efcb05; ">_CookingPotItemSaveDataProxy</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">154</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">156</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">155</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">157</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">156</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Utils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetActive"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">158</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Utils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetActive"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">157</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Component</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetComponent"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">159</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Component</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetComponent"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">158</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">160</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">166</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">168</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">167</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">false</span><span class="sf11b2">;</span></code></td>
+<td class="ln">169</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">false</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">168</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">170</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">169</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">171</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">170</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">172</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d4" href="#d4">.</a></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">173</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">UnityEngine</span><span style="color: #000000; background-color: #efcb05; ">.</span><span style="color: #000000; background-color: #efcb05; ">Object</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"get_name"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">174</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Inventory</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"GearInInventory"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">175</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">UnityEngine</span><span style="color: #000000; background-color: #efcb05; ">.</span><span style="color: #000000; background-color: #efcb05; ">Object</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"op_Implicit"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">176</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">1</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">177</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">public</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">bool</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">HasInInventory</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Inventory</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">inventory</span><span style="color: #000000; background-color: #efcb05; ">)</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">178</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">179</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">return</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">false</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">180</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">181</td><td style="color: #000000; background-color: #efcb05; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">182</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallerCount</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">0</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">171</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"MaybeInterruptPassTime"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">183</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"MaybeInterruptPassTime"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">172</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"FindGearItemBeingCooked"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">184</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"FindGearItemBeingCooked"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">173</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ModifiedCookTimeMinutes"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">185</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ModifiedCookTimeMinutes"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">174</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetTotalReadyMultiplier"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">186</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetTotalReadyMultiplier"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">175</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateCookingTimeAndState"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">187</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateCookingTimeAndState"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">330</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Fire</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">GetFireBeingUsed</span><span class="sf11b2">()</span></code></td>
+<td class="ln">341</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Fire</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">GetFireBeingUsed</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">331</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">342</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">332</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">null</span><span class="sf11b2">;</span></code></td>
+<td class="ln">343</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">null</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">333</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">344</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">334</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">345</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d5" href="#d5">.</a></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">346</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CalledBy</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Panel_ActionPicker</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"CookingPotCookCallback"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">347</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallerCount</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">1</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">348</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">UnityEngine</span><span style="color: #000000; background-color: #efcb05; ">.</span><span style="color: #000000; background-color: #efcb05; ">Object</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"op_Implicit"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">349</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">CookingPotItem</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"FindCookingSlotForGearPlacePoint"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">350</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">public</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">bool</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">TryGetCookingSlot</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">out</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">CookingSlot</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">cookingSlot</span><span style="color: #000000; background-color: #efcb05; ">)</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">351</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">352</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; ">cookingSlot</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">null</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">353</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">return</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">false</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">354</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">355</td><td style="color: #000000; background-color: #efcb05; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">356</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CalledBy</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">CookingPotItem</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"TryGetCookingSlot"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">357</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallerCount</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">1</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">358</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">UnityEngine</span><span style="color: #000000; background-color: #efcb05; ">.</span><span style="color: #000000; background-color: #efcb05; ">Object</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"op_Implicit"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">359</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Component</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"GetComponentInParent"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">360</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">GenericPool</span><span style="color: #000000; background-color: #efcb05; ">&lt;&gt;), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"Get"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">361</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Array</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"Clear"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">362</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">PooledObject</span><span style="color: #000000; background-color: #efcb05; ">&lt;&gt;), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"System.IDisposable.Dispose"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">363</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">TypeFullName</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"System.ThrowHelper"</span><span style="color: #000000; background-color: #efcb05; ">, </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">364</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallsDeduplicatedMethods</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">3</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">365</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">17</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">366</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">private</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">static</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">CookingSlot</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">FindCookingSlotForGearPlacePoint</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">GearPl<wbr>acePoint</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">placePoint</span><span style="color: #000000; background-color: #efcb05; ">, </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">ref</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">Fire</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">fire</span><span style="color: #000000; background-color: #efcb05; ">)</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">367</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">368</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">return</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">null</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">369</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">370</td><td style="color: #000000; background-color: #efcb05; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">335</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetHoverText"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">371</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetHoverText"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">336</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">372</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">337</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Localization</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Get"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">373</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Localization</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Get"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">338</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf7b2">string</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Replace"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">374</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf7b2">string</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Replace"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">339</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_DisplayName"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">375</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_DisplayName"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">397</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">ShouldShowPotModelInInspect</span><span class="sf11b2">()</span></code></td>
+<td class="ln">433</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">ShouldShowPotModelInInspect</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">398</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">434</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">399</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">false</span><span class="sf11b2">;</span></code></td>
+<td class="ln">435</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">false</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">400</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">436</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">401</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">437</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d6" href="#d6">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">438</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">PlayerManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"UpdateInspectGear"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">439</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallerCount</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">1</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">440</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">CookingPotItem</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"ResetHeatLoss"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">441</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">GameAudioManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"Play3DSound"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">442</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Inventory</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"DestroyGear"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">443</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">CookingPotItem</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"IsDummyPot"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">444</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">CookingPotItem</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"DoConditionDamageToPot"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">445</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">GearManager</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"DestroyGearObject"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">446</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallsDeduplicatedMethods</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">3</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">447</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">5</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">448</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">public</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">void</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">DestroyGearItemBeingCooked</span><span style="color: #000000; background-color: #efcb05; ">()</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">449</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">450</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">451</td><td style="color: #000000; background-color: #efcb05; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">452</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CalledBy</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">PlayerManager</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"UpdateInspectGear"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">453</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CalledBy</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">PlayerManager</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"InitLabelsForGear"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">454</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallerCount</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">2</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">455</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">1</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">456</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">public</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">bool</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">CanPickupItemWhileCooking</span><span style="color: #000000; background-color: #efcb05; ">()</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">457</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">458</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">return</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">false</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">459</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">460</td><td style="color: #000000; background-color: #efcb05; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">402</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Update"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">461</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Update"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">403</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PerformInteraction"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">462</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PerformInteraction"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">404</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DoSpecialActionFromInspectMode"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">463</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DoSpecialActionFromInspectMode"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">405</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"EnterPlaceMesh"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">464</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"EnterPlaceMesh"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">406</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ExitPlaceMesh"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">465</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ExitPlaceMesh"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">456</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">514</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">457</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">515</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">458</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ModifiedCookTimeMinutes"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">516</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ModifiedCookTimeMinutes"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">459</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Panel_Cooking</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateGearItem"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">517</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Panel_Cooking</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateCookableItem"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">460</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">518</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookableItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetCookTimeInMinutes"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d7" href="#d7">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">519</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallerCount</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">3</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">461</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">520</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">462</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">521</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">463</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">GetTotalCookMultiplier</span><span class="sf11b2">()</span></code></td>
+<td class="ln">522</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">GetTotalCookMultiplier</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">464</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">523</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">465</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf10b2">0f</span><span class="sf11b2">;</span></code></td>
+<td class="ln">524</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf10b2">0f</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">533</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">CookingState</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">GetCookingState</span><span class="sf11b2">()</span></code></td>
+<td class="ln">591</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">CookingState</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">GetCookingState</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">534</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">592</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">535</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">default</span><span class="sf11b2">(</span><span class="sf3b2">CookingState</span><span class="sf11b2">);</span></code></td>
+<td class="ln">593</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">default</span><span class="sf11b2">(</span><span class="sf3b2">CookingState</span><span class="sf11b2">);</span></code></td>
+</tr>
+<tr>
+<td class="ln">536</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">594</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">537</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">595</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d8" href="#d8">.</a></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">596</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">DeduplicatedMethod</span><span style="color: #000000; background-color: #efcb05; ">]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">597</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallerCount</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">0</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">598</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">public</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">GearPlacePoint</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">GetGearPlacePoint</span><span style="color: #000000; background-color: #efcb05; ">()</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">599</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">600</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">return</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">null</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">601</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">602</td><td style="color: #000000; background-color: #efcb05; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">538</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ApplyForce"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">603</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ApplyForce"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">539</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"EnablePhysics"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">604</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"EnablePhysics"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">540</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">StoneItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"OnCollisionEnter"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">605</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">StoneItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"OnCollisionEnter"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">541</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">BreakDown</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"CanStickToGround"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">606</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">BreakDown</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"CanStickToGround"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">542</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">4</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">607</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">4</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">604</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">668</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">605</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PickUpCookedItem"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">669</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PickUpCookedItem"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">606</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ExitPlaceMesh"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">670</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ExitPlaceMesh"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">607</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">671</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">608</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">.</span><span class="sf3b2">Object</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Implicit"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">672</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">.</span><span class="sf3b2">Object</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Implicit"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d9" href="#d9">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">673</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">SkillsManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"IncrementPointsAndNotify"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">609</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Localization</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Get"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">674</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Localization</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Get"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">610</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_DisplayName"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">675</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_DisplayName"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">611</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">.</span><span class="sf3b2">Object</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_name"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">676</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">.</span><span class="sf3b2">Object</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_name"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">612</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">SkillsManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"IncrementPointsAndNotify"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">613</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearMessage</span><span class="sf11b2">.</span><span class="sf3b2">GearMessageInfo</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">".ctor"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">677</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearMessage</span><span class="sf11b2">.</span><span class="sf3b2">GearMessageInfo</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">".ctor"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">652</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetCookedGearProperties"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">716</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetCookedGearProperties"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">653</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateGrubMeshVisualCondition"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">717</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateGrubMeshVisualCondition"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">654</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Panel_Cooking</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"UpdateGearItem"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">655</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Panel_Cooking</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetCookedItemConditionPercent"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">718</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Panel_Cooking</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetCookedItemConditionPercent"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">656</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">4</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">719</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d10" href="#d10">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">720</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">GameplayTag</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"MatchesTag"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">721</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Skill_Cooking</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"CalculateCondition"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">722</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">2</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">657</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">static</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">GetCookedHp</span><span class="sf11b2">(</span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">currentHp</span><span class="sf11b2">, </span><span class="sf3b2">GearItemData</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">rawItemData</span><span class="sf11b2">, </span><span class="sf3b2">GearItemData</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">cookedItemData</span><span class="sf11b2">)</span></code></td>
+<td class="ln">723</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">static</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">GetCookedHp</span><span class="sf11b2">(</span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">currentHp</span><span class="sf11b2">, </span><span class="sf3b2">GearItemData</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">rawItemData</span><span class="sf11b2">, </span><span class="sf3b2">GearItemData</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">cookedItemData</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr>
+<td class="ln">658</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">724</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">659</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf10b2">0f</span><span class="sf11b2">;</span></code></td>
+<td class="ln">725</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf10b2">0f</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">660</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">726</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">661</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">727</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">869</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">934</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">870</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">UpdateGrubMeshVisualCondition</span><span class="sf11b2">()</span></code></td>
+<td class="ln">935</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">UpdateGrubMeshVisualCondition</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">871</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">936</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">872</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">937</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">873</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">938</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d11" href="#d11">.</a></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">939</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CalledBy</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">CookingPotItem</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"DestroyGearItemBeingCooked"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">940</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CalledBy</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">CookingPotItem</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"PickUpCookedItem"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">874</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallerCount</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span class="sf17b16">0</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+<td class="ln">941</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallerCount</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span class="sf17b16">2</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">875</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Degrade"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">942</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Degrade"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">876</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DegradeOnUse"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">943</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GearItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DegradeOnUse"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">877</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">944</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">878</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">DoConditionDamageToPot</span><span class="sf11b2">()</span></code></td>
+<td class="ln">945</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">DoConditionDamageToPot</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">879</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">946</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">880</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">947</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">881</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">948</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">882</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">949</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">883</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">CookingPotItem</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"IsDummyPot"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">884</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">.</span><span class="sf3b2">Object</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Implicit"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">950</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">.</span><span class="sf3b2">Object</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Implicit"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d12" href="#d12">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">951</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">CookingPotItem</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"IsDummyPot"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">885</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">4</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">952</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">4</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">886</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">953</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">887</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">SetRuinedFoodMaterial</span><span class="sf11b2">()</span></code></td>
+<td class="ln">954</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">SetRuinedFoodMaterial</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">888</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">955</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">889</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">956</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">974</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">IsItemBeingCookedHot</span><span class="sf11b2">()</span></code></td>
+<td class="ln">1041</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">IsItemBeingCookedHot</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">975</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">1042</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">976</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">false</span><span class="sf11b2">;</span></code></td>
+<td class="ln">1043</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">false</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">977</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">1044</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">978</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">1045</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d13" href="#d13">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">1046</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">CookingPotItem</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"DestroyGearItemBeingCooked"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">979</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PickUpCookedItem"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1047</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PickUpCookedItem"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">980</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"EnterPlaceMesh"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1048</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CookingPotItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"EnterPlaceMesh"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">981</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1049</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">982</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">.</span><span class="sf3b2">Object</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Implicit"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1050</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">UnityEngine</span><span class="sf11b2">.</span><span class="sf3b2">Object</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Implicit"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">983</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1051</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln"></td><td></td>
+<td class="ln"></td><td></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
