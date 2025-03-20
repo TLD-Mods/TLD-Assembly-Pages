@@ -1,0 +1,504 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>WinMerge File Compare Report</title>
+<style type="text/css">
+<!--
+table {margin: 0; border: 1px solid #a0a0a0; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);}
+td,th {word-break: break-all; font-size: 9pt;padding: 0 3px;}
+tr { vertical-align: top; }
+.title {color: white; background-color: blue; vertical-align: top; padding: 4px 4px; background: linear-gradient(mediumblue, darkblue);}
+.sf3b2 {color: #000000; background-color: #ffffff; }
+.sf3b5 {color: #000000; background-color: #0078d7; }
+.sf3b14 {color: #000000; background-color: #ffa0a0; }
+.sf3b16 {color: #000000; background-color: #f1e2ad; }
+.sf3b18 {color: #000000; background-color: #ffaa82; }
+.sf3b19 {color: #000000; background-color: #c8816c; }
+.sf6b2 {color: #ffffff; background-color: #ffffff; }
+.sf6b5 {color: #ffffff; background-color: #0078d7; }
+.sf6b14 {color: #ffffff; background-color: #ffa0a0; }
+.sf6b16 {color: #ffffff; background-color: #f1e2ad; }
+.sf6b18 {color: #ffffff; background-color: #ffaa82; }
+.sf6b19 {color: #ffffff; background-color: #c8816c; }
+.sf7b2 {color: #0000ff; background-color: #ffffff; font-weight: bold; }
+.sf7b5 {color: #0000ff; background-color: #0078d7; font-weight: bold; }
+.sf7b14 {color: #0000ff; background-color: #ffa0a0; font-weight: bold; }
+.sf7b16 {color: #0000ff; background-color: #f1e2ad; font-weight: bold; }
+.sf7b18 {color: #0000ff; background-color: #ffaa82; font-weight: bold; }
+.sf7b19 {color: #0000ff; background-color: #c8816c; font-weight: bold; }
+.sf8b2 {color: #800080; background-color: #ffffff; }
+.sf8b5 {color: #800080; background-color: #0078d7; }
+.sf8b14 {color: #800080; background-color: #ffa0a0; }
+.sf8b16 {color: #800080; background-color: #f1e2ad; }
+.sf8b18 {color: #800080; background-color: #ffaa82; }
+.sf8b19 {color: #800080; background-color: #c8816c; }
+.sf9b2 {color: #008000; background-color: #ffffff; }
+.sf9b5 {color: #008000; background-color: #0078d7; }
+.sf9b14 {color: #008000; background-color: #ffa0a0; }
+.sf9b16 {color: #008000; background-color: #f1e2ad; }
+.sf9b18 {color: #008000; background-color: #ffaa82; }
+.sf9b19 {color: #008000; background-color: #c8816c; }
+.sf10b2 {color: #ff0000; background-color: #ffffff; }
+.sf10b5 {color: #ff0000; background-color: #0078d7; }
+.sf10b14 {color: #ff0000; background-color: #ffa0a0; }
+.sf10b16 {color: #ff0000; background-color: #f1e2ad; }
+.sf10b18 {color: #ff0000; background-color: #ffaa82; }
+.sf10b19 {color: #ff0000; background-color: #c8816c; }
+.sf11b2 {color: #606060; background-color: #ffffff; }
+.sf11b5 {color: #606060; background-color: #0078d7; }
+.sf11b14 {color: #606060; background-color: #ffa0a0; }
+.sf11b16 {color: #606060; background-color: #f1e2ad; }
+.sf11b18 {color: #606060; background-color: #ffaa82; }
+.sf11b19 {color: #606060; background-color: #c8816c; }
+.sf12b2 {color: #800000; background-color: #ffffff; }
+.sf12b5 {color: #800000; background-color: #0078d7; }
+.sf12b14 {color: #800000; background-color: #ffa0a0; }
+.sf12b16 {color: #800000; background-color: #f1e2ad; }
+.sf12b18 {color: #800000; background-color: #ffaa82; }
+.sf12b19 {color: #800000; background-color: #c8816c; }
+.sf13b2 {color: #0080c0; background-color: #ffffff; }
+.sf13b5 {color: #0080c0; background-color: #0078d7; }
+.sf13b14 {color: #0080c0; background-color: #ffa0a0; }
+.sf13b16 {color: #0080c0; background-color: #f1e2ad; }
+.sf13b18 {color: #0080c0; background-color: #ffaa82; }
+.sf13b19 {color: #0080c0; background-color: #c8816c; }
+.sf15b2 {color: #000000; background-color: #ffffff; }
+.sf15b5 {color: #000000; background-color: #0078d7; }
+.sf15b14 {color: #000000; background-color: #ffa0a0; }
+.sf15b16 {color: #000000; background-color: #f1e2ad; }
+.sf15b18 {color: #000000; background-color: #ffaa82; }
+.sf15b19 {color: #000000; background-color: #c8816c; }
+.sf17b2 {color: #000000; background-color: #ffffff; }
+.sf17b5 {color: #000000; background-color: #0078d7; }
+.sf17b14 {color: #000000; background-color: #ffa0a0; }
+.sf17b16 {color: #000000; background-color: #f1e2ad; }
+.sf17b18 {color: #000000; background-color: #ffaa82; }
+.sf17b19 {color: #000000; background-color: #c8816c; }
+.sf20b2 {color: #000080; background-color: #ffffff; }
+.sf20b5 {color: #000080; background-color: #0078d7; }
+.sf20b14 {color: #000080; background-color: #ffa0a0; }
+.sf20b16 {color: #000080; background-color: #f1e2ad; }
+.sf20b18 {color: #000080; background-color: #ffaa82; }
+.sf20b19 {color: #000080; background-color: #c8816c; }
+.sf21b2 {color: #0080c0; background-color: #ffffff; }
+.sf21b5 {color: #0080c0; background-color: #0078d7; }
+.sf21b14 {color: #0080c0; background-color: #ffa0a0; }
+.sf21b16 {color: #0080c0; background-color: #f1e2ad; }
+.sf21b18 {color: #0080c0; background-color: #ffaa82; }
+.sf21b19 {color: #0080c0; background-color: #c8816c; }
+.sf3b2i {color: #ababab; background-color: #ffffff; }
+.sf3b5i {color: #005190; background-color: #0078d7; }
+.sf3b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf3b16i {color: #a19774; background-color: #f1e2ad; }
+.sf3b18i {color: #ab7257; background-color: #ffaa82; }
+.sf3b19i {color: #865749; background-color: #c8816c; }
+.sf6b2i {color: #ffffff; background-color: #ffffff; }
+.sf6b5i {color: #54a4e4; background-color: #0078d7; }
+.sf6b14i {color: #ffbfbf; background-color: #ffa0a0; }
+.sf6b16i {color: #f5ebc8; background-color: #f1e2ad; }
+.sf6b18i {color: #ffc6ab; background-color: #ffaa82; }
+.sf6b19i {color: #daaa9c; background-color: #c8816c; }
+.sf7b2i {color: #ababff; background-color: #ffffff; font-weight: bold; }
+.sf7b5i {color: #0051e4; background-color: #0078d7; font-weight: bold; }
+.sf7b14i {color: #ab6bbf; background-color: #ffa0a0; font-weight: bold; }
+.sf7b16i {color: #a197c8; background-color: #f1e2ad; font-weight: bold; }
+.sf7b18i {color: #ab72ab; background-color: #ffaa82; font-weight: bold; }
+.sf7b19i {color: #86579c; background-color: #c8816c; font-weight: bold; }
+.sf8b2i {color: #d5abd5; background-color: #ffffff; }
+.sf8b5i {color: #2a51bb; background-color: #0078d7; }
+.sf8b14i {color: #d56b96; background-color: #ffa0a0; }
+.sf8b16i {color: #cc979f; background-color: #f1e2ad; }
+.sf8b18i {color: #d57282; background-color: #ffaa82; }
+.sf8b19i {color: #b15772; background-color: #c8816c; }
+.sf9b2i {color: #abd5ab; background-color: #ffffff; }
+.sf9b5i {color: #007a90; background-color: #0078d7; }
+.sf9b14i {color: #ab966b; background-color: #ffa0a0; }
+.sf9b16i {color: #a1c274; background-color: #f1e2ad; }
+.sf9b18i {color: #ab9d57; background-color: #ffaa82; }
+.sf9b19i {color: #868149; background-color: #c8816c; }
+.sf10b2i {color: #ffabab; background-color: #ffffff; }
+.sf10b5i {color: #545190; background-color: #0078d7; }
+.sf10b14i {color: #ff6b6b; background-color: #ffa0a0; }
+.sf10b16i {color: #f59774; background-color: #f1e2ad; }
+.sf10b18i {color: #ff7257; background-color: #ffaa82; }
+.sf10b19i {color: #da5749; background-color: #c8816c; }
+.sf11b2i {color: #cbcbcb; background-color: #ffffff; }
+.sf11b5i {color: #1f71b0; background-color: #0078d7; }
+.sf11b14i {color: #cb8b8b; background-color: #ffa0a0; }
+.sf11b16i {color: #c1b794; background-color: #f1e2ad; }
+.sf11b18i {color: #cb9277; background-color: #ffaa82; }
+.sf11b19i {color: #a67769; background-color: #c8816c; }
+.sf12b2i {color: #d5abab; background-color: #ffffff; }
+.sf12b5i {color: #2a5190; background-color: #0078d7; }
+.sf12b14i {color: #d56b6b; background-color: #ffa0a0; }
+.sf12b16i {color: #cc9774; background-color: #f1e2ad; }
+.sf12b18i {color: #d57257; background-color: #ffaa82; }
+.sf12b19i {color: #b15749; background-color: #c8816c; }
+.sf13b2i {color: #abd5eb; background-color: #ffffff; }
+.sf13b5i {color: #007ad0; background-color: #0078d7; }
+.sf13b14i {color: #ab96aa; background-color: #ffa0a0; }
+.sf13b16i {color: #a1c2b3; background-color: #f1e2ad; }
+.sf13b18i {color: #ab9d96; background-color: #ffaa82; }
+.sf13b19i {color: #868187; background-color: #c8816c; }
+.sf15b2i {color: #ababab; background-color: #ffffff; }
+.sf15b5i {color: #005190; background-color: #0078d7; }
+.sf15b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf15b16i {color: #a19774; background-color: #f1e2ad; }
+.sf15b18i {color: #ab7257; background-color: #ffaa82; }
+.sf15b19i {color: #865749; background-color: #c8816c; }
+.sf17b2i {color: #ababab; background-color: #ffffff; }
+.sf17b5i {color: #005190; background-color: #0078d7; }
+.sf17b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf17b16i {color: #a19774; background-color: #f1e2ad; }
+.sf17b18i {color: #ab7257; background-color: #ffaa82; }
+.sf17b19i {color: #865749; background-color: #c8816c; }
+.sf20b2i {color: #ababd5; background-color: #ffffff; }
+.sf20b5i {color: #0051bb; background-color: #0078d7; }
+.sf20b14i {color: #ab6b96; background-color: #ffa0a0; }
+.sf20b16i {color: #a1979f; background-color: #f1e2ad; }
+.sf20b18i {color: #ab7282; background-color: #ffaa82; }
+.sf20b19i {color: #865772; background-color: #c8816c; }
+.sf21b2i {color: #abd5eb; background-color: #ffffff; }
+.sf21b5i {color: #007ad0; background-color: #0078d7; }
+.sf21b14i {color: #ab96aa; background-color: #ffa0a0; }
+.sf21b16i {color: #a1c2b3; background-color: #f1e2ad; }
+.sf21b18i {color: #ab9d96; background-color: #ffaa82; }
+.sf21b19i {color: #868187; background-color: #c8816c; }
+.ln {text-align: right; word-break: normal; color: #000000; background-color: #f0f0f0;}
+-->
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" style="width:100%;">
+<colgroup>
+<col style="width: 3.2em;" />
+<col style="width: calc(100vw / 2 - 3.2em);" />
+<col style="width: 3.2em;" />
+<col style="width: calc(100vw / 2 - 3.2em);" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2" class="title">C:\TLD-Assembly-Archive\2.39\call_analysis_cs\SaveGameSystem.cs</th>
+<th colspan="2" class="title">C:\TLD-Assembly-Archive\2.40\call_analysis_cs\SaveGameSystem.cs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="ln">57</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">57</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">58</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf3b2">Delete</span><span class="sf11b2">,</span></code></td>
+<td class="ln">58</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf3b2">Delete</span><span class="sf11b2">,</span></code></td>
+</tr>
+<tr>
+<td class="ln">59</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf3b2">Load</span><span class="sf11b2">,</span></code></td>
+<td class="ln">59</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf3b2">Load</span><span class="sf11b2">,</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d1" href="#d1">60</a></td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; ">Save</span>&nbsp;</code></td>
+<td class="ln">60</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; ">Save</span><span class="sf17b18">,</span>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">61</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; ">Purge</span></code></td>
+</tr>
+<tr>
+<td class="ln">61</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">62</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">62</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">63</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">63</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">class</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">PhotoLoadQueueEntry</span></code></td>
+<td class="ln">64</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">class</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">PhotoLoadQueueEntry</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">399</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">400</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">400</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">static</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">List</span><span class="sf11b2">&lt;</span><span class="sf3b2">PhotoFile</span><span class="sf11b2">&gt; </span><span class="sf3b2">s_PhotoFiles</span><span class="sf11b2">;</span></code></td>
+<td class="ln">401</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">static</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">List</span><span class="sf11b2">&lt;</span><span class="sf3b2">PhotoFile</span><span class="sf11b2">&gt; </span><span class="sf3b2">s_PhotoFiles</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">401</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">402</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d2" href="#d2">.</a></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">403</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">public</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">static</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">bool</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">s_PurgeUnreferencedPhotos</span><span style="color: #000000; background-color: #efcb05; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">404</td><td style="color: #000000; background-color: #efcb05; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">402</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">const</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">string</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">PROFILE_DISPLAYNAME</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Profile (Survival)"</span><span class="sf11b2">;</span></code></td>
+<td class="ln">405</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">const</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">string</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">PROFILE_DISPLAYNAME</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Profile (Survival)"</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">403</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">406</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">404</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">const</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">string</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">DEFAULT_PROFILE_FILENAME</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"profile_survival"</span><span class="sf11b2">;</span></code></td>
+<td class="ln">407</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">const</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">string</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">DEFAULT_PROFILE_FILENAME</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"profile_survival"</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">806</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSlots</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetExtraInstancesOfFilename"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">809</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSlots</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetExtraInstancesOfFilename"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">807</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LoadSceneDataAdditive"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">810</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LoadSceneDataAdditive"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">808</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RestoreGlobalDataPostSceneRestore"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">811</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RestoreGlobalDataPostSceneRestore"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d3" href="#d3">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">812</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">SaveGameSystem</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"MaybePurgeUnreferencedPhotos"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">809</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Debug</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LogError"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">813</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Debug</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LogError"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">810</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">InterfaceManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"TryGetPanel"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">814</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">InterfaceManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"TryGetPanel"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">811</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GameManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DoExitToMainMenu"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">815</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GameManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DoExitToMainMenu"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">1142</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">RecoveryCamp</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SerializeRecoveryItems"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1146</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">RecoveryCamp</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SerializeRecoveryItems"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1143</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CougarManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Serialize"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1147</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CougarManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Serialize"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1144</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">PlaceableManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Serialize"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1148</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">PlaceableManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Serialize"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d4" href="#d4">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">1149</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">PlaceableManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"SerializeInventory"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1145</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GameManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetMissionServicesManager"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1150</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">GameManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetMissionServicesManager"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1146</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">MissionServicesManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Serialize"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1151</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">MissionServicesManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Serialize"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1147</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSlots</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SaveDataToSlot"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1152</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSlots</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SaveDataToSlot"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">1194</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">FlyOver</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ResetFlyoverTimer"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1199</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">FlyOver</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ResetFlyoverTimer"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1195</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">AchievementManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Deserialize"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1200</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">AchievementManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Deserialize"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1196</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">ExperienceModeManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Deserialize"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1201</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">ExperienceModeManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Deserialize"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d5" href="#d5">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">1202</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">AuroraManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"Start"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1197</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">AuroraManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetForceDisableForNewGame"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1203</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">AuroraManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetForceDisableForNewGame"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1198</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">AuroraManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateAuroraValue"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1204</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">AuroraManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateAuroraValue"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1199</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">AuroraManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateElectrolizerState"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1205</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">AuroraManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UpdateElectrolizerState"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">1278</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RestoreGame"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1284</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RestoreGame"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1279</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1285</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1280</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSlots</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetSaveSlotFromName"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1286</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSlots</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetSaveSlotFromName"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d6" href="#d6">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">1287</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">PlaceableManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"DeserializeInventory"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1281</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">FireManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DeserializeChimneyData"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1288</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">FireManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DeserializeChimneyData"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1282</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SnowShelterManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ForceIntoSnowShelterSilent"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1289</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SnowShelterManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ForceIntoSnowShelterSilent"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1283</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">LifeAfterDeathManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DeserializePostSceneLoad"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1290</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">LifeAfterDeathManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DeserializePostSceneLoad"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">1362</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LoadPhoto"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1369</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LoadPhoto"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1363</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SavePhoto"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1370</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SavePhoto"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1364</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">4</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1371</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"MaybePurgeUnreferencedPhotos"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d7" href="#d7">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">1372</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallerCount</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">5</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1365</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf7b2">string</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Split"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1373</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf7b2">string</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Split"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1366</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Find"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1374</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Find"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1367</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf7b2">int</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Parse"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1375</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf7b2">int</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Parse"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">1383</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Dictionary</span><span class="sf11b2">&lt;, &gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Remove"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1391</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Dictionary</span><span class="sf11b2">&lt;, &gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Remove"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1384</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">PooledObject</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.IDisposable.Dispose"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1392</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">PooledObject</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.IDisposable.Dispose"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1385</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;.</span><span class="sf3b2">Enumerator</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"MoveNext"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1393</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;.</span><span class="sf3b2">Enumerator</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"MoveNext"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d8" href="#d8">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">1394</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">string</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"Format"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">1395</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">PhotoManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_Photos"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1386</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Dictionary</span><span class="sf11b2">&lt;, &gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_Item"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1396</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Dictionary</span><span class="sf11b2">&lt;, &gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_Item"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1387</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">ImageConversion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LoadImage"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1397</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">ImageConversion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LoadImage"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1388</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SerializationUtils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SerializeObject"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1398</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SerializationUtils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SerializeObject"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">1403</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">1413</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">1404</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">1414</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">1405</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">1415</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d9" href="#d9">.</a></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1416</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CalledBy</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">SaveGameSystem</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"RestoreGame"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1417</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallerCount</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">1</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1418</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">List</span><span style="color: #000000; background-color: #efcb05; ">&lt;&gt;.</span><span style="color: #000000; background-color: #efcb05; ">Enumerator</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"MoveNext"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1419</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">string</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"Concat"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1420</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">Calls</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Type</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">SaveGameSystem</span><span style="color: #000000; background-color: #efcb05; ">), </span><span style="color: #000000; background-color: #efcb05; ">Member</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">"AddEntryToPhotoLoadQueue"</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1421</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #efcb05; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; ">Count</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;= </span><span style="color: #000000; background-color: #efcb05; ">4</span><span style="color: #000000; background-color: #efcb05; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1422</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; </span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">public</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">static</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">void</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">MaybePurgeUnreferencedPhotos</span><span style="color: #000000; background-color: #efcb05; ">(</span><span style="color: #000000; background-color: #efcb05; font-weight: bold; ">string</span><span style="color: #000000; background-color: #efcb05; ">&nbsp;</span><span style="color: #000000; background-color: #efcb05; ">currentSave</span><span style="color: #000000; background-color: #efcb05; ">)</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1423</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1424</td><td style="color: #000000; background-color: #efcb05; "><code><span style="color: #000000; background-color: #efcb05; ">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #c0c0c0; "><code>&nbsp;</code></td>
+<td class="ln">1425</td><td style="color: #000000; background-color: #efcb05; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">1406</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1426</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1407</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameData</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DataExists"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">1427</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameData</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DataExists"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">1408</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">static</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">LoadUserProfile</span><span class="sf11b2">()</span></code></td>
+<td class="ln">1428</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">static</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">LoadUserProfile</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln"></td><td></td>
+<td class="ln"></td><td></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
