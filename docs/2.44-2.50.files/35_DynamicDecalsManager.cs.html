@@ -1,0 +1,1028 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>WinMerge File Compare Report</title>
+<style type="text/css">
+<!--
+table {margin: 0; border: 1px solid #a0a0a0; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);}
+td,th {word-break: break-all; font-size: 9pt;padding: 0 3px;}
+tr { vertical-align: top; }
+.title {color: white; background-color: blue; vertical-align: top; padding: 4px 4px; background: linear-gradient(mediumblue, darkblue);}
+.sf3b2 {color: #000000; background-color: #ffffff; }
+.sf3b5 {color: #000000; background-color: #0078d7; }
+.sf3b14 {color: #000000; background-color: #ffa0a0; }
+.sf3b16 {color: #000000; background-color: #f1e2ad; }
+.sf3b18 {color: #000000; background-color: #ffaa82; }
+.sf3b19 {color: #000000; background-color: #c8816c; }
+.sf6b2 {color: #ffffff; background-color: #ffffff; }
+.sf6b5 {color: #ffffff; background-color: #0078d7; }
+.sf6b14 {color: #ffffff; background-color: #ffa0a0; }
+.sf6b16 {color: #ffffff; background-color: #f1e2ad; }
+.sf6b18 {color: #ffffff; background-color: #ffaa82; }
+.sf6b19 {color: #ffffff; background-color: #c8816c; }
+.sf7b2 {color: #0000ff; background-color: #ffffff; font-weight: bold; }
+.sf7b5 {color: #0000ff; background-color: #0078d7; font-weight: bold; }
+.sf7b14 {color: #0000ff; background-color: #ffa0a0; font-weight: bold; }
+.sf7b16 {color: #0000ff; background-color: #f1e2ad; font-weight: bold; }
+.sf7b18 {color: #0000ff; background-color: #ffaa82; font-weight: bold; }
+.sf7b19 {color: #0000ff; background-color: #c8816c; font-weight: bold; }
+.sf8b2 {color: #800080; background-color: #ffffff; }
+.sf8b5 {color: #800080; background-color: #0078d7; }
+.sf8b14 {color: #800080; background-color: #ffa0a0; }
+.sf8b16 {color: #800080; background-color: #f1e2ad; }
+.sf8b18 {color: #800080; background-color: #ffaa82; }
+.sf8b19 {color: #800080; background-color: #c8816c; }
+.sf9b2 {color: #008000; background-color: #ffffff; }
+.sf9b5 {color: #008000; background-color: #0078d7; }
+.sf9b14 {color: #008000; background-color: #ffa0a0; }
+.sf9b16 {color: #008000; background-color: #f1e2ad; }
+.sf9b18 {color: #008000; background-color: #ffaa82; }
+.sf9b19 {color: #008000; background-color: #c8816c; }
+.sf10b2 {color: #ff0000; background-color: #ffffff; }
+.sf10b5 {color: #ff0000; background-color: #0078d7; }
+.sf10b14 {color: #ff0000; background-color: #ffa0a0; }
+.sf10b16 {color: #ff0000; background-color: #f1e2ad; }
+.sf10b18 {color: #ff0000; background-color: #ffaa82; }
+.sf10b19 {color: #ff0000; background-color: #c8816c; }
+.sf11b2 {color: #606060; background-color: #ffffff; }
+.sf11b5 {color: #606060; background-color: #0078d7; }
+.sf11b14 {color: #606060; background-color: #ffa0a0; }
+.sf11b16 {color: #606060; background-color: #f1e2ad; }
+.sf11b18 {color: #606060; background-color: #ffaa82; }
+.sf11b19 {color: #606060; background-color: #c8816c; }
+.sf12b2 {color: #800000; background-color: #ffffff; }
+.sf12b5 {color: #800000; background-color: #0078d7; }
+.sf12b14 {color: #800000; background-color: #ffa0a0; }
+.sf12b16 {color: #800000; background-color: #f1e2ad; }
+.sf12b18 {color: #800000; background-color: #ffaa82; }
+.sf12b19 {color: #800000; background-color: #c8816c; }
+.sf13b2 {color: #0080c0; background-color: #ffffff; }
+.sf13b5 {color: #0080c0; background-color: #0078d7; }
+.sf13b14 {color: #0080c0; background-color: #ffa0a0; }
+.sf13b16 {color: #0080c0; background-color: #f1e2ad; }
+.sf13b18 {color: #0080c0; background-color: #ffaa82; }
+.sf13b19 {color: #0080c0; background-color: #c8816c; }
+.sf15b2 {color: #000000; background-color: #ffffff; }
+.sf15b5 {color: #000000; background-color: #0078d7; }
+.sf15b14 {color: #000000; background-color: #ffa0a0; }
+.sf15b16 {color: #000000; background-color: #f1e2ad; }
+.sf15b18 {color: #000000; background-color: #ffaa82; }
+.sf15b19 {color: #000000; background-color: #c8816c; }
+.sf17b2 {color: #000000; background-color: #ffffff; }
+.sf17b5 {color: #000000; background-color: #0078d7; }
+.sf17b14 {color: #000000; background-color: #ffa0a0; }
+.sf17b16 {color: #000000; background-color: #f1e2ad; }
+.sf17b18 {color: #000000; background-color: #ffaa82; }
+.sf17b19 {color: #000000; background-color: #c8816c; }
+.sf20b2 {color: #000080; background-color: #ffffff; }
+.sf20b5 {color: #000080; background-color: #0078d7; }
+.sf20b14 {color: #000080; background-color: #ffa0a0; }
+.sf20b16 {color: #000080; background-color: #f1e2ad; }
+.sf20b18 {color: #000080; background-color: #ffaa82; }
+.sf20b19 {color: #000080; background-color: #c8816c; }
+.sf21b2 {color: #0080c0; background-color: #ffffff; }
+.sf21b5 {color: #0080c0; background-color: #0078d7; }
+.sf21b14 {color: #0080c0; background-color: #ffa0a0; }
+.sf21b16 {color: #0080c0; background-color: #f1e2ad; }
+.sf21b18 {color: #0080c0; background-color: #ffaa82; }
+.sf21b19 {color: #0080c0; background-color: #c8816c; }
+.sf3b2i {color: #ababab; background-color: #ffffff; }
+.sf3b5i {color: #005190; background-color: #0078d7; }
+.sf3b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf3b16i {color: #a19774; background-color: #f1e2ad; }
+.sf3b18i {color: #ab7257; background-color: #ffaa82; }
+.sf3b19i {color: #865749; background-color: #c8816c; }
+.sf6b2i {color: #ffffff; background-color: #ffffff; }
+.sf6b5i {color: #54a4e4; background-color: #0078d7; }
+.sf6b14i {color: #ffbfbf; background-color: #ffa0a0; }
+.sf6b16i {color: #f5ebc8; background-color: #f1e2ad; }
+.sf6b18i {color: #ffc6ab; background-color: #ffaa82; }
+.sf6b19i {color: #daaa9c; background-color: #c8816c; }
+.sf7b2i {color: #ababff; background-color: #ffffff; font-weight: bold; }
+.sf7b5i {color: #0051e4; background-color: #0078d7; font-weight: bold; }
+.sf7b14i {color: #ab6bbf; background-color: #ffa0a0; font-weight: bold; }
+.sf7b16i {color: #a197c8; background-color: #f1e2ad; font-weight: bold; }
+.sf7b18i {color: #ab72ab; background-color: #ffaa82; font-weight: bold; }
+.sf7b19i {color: #86579c; background-color: #c8816c; font-weight: bold; }
+.sf8b2i {color: #d5abd5; background-color: #ffffff; }
+.sf8b5i {color: #2a51bb; background-color: #0078d7; }
+.sf8b14i {color: #d56b96; background-color: #ffa0a0; }
+.sf8b16i {color: #cc979f; background-color: #f1e2ad; }
+.sf8b18i {color: #d57282; background-color: #ffaa82; }
+.sf8b19i {color: #b15772; background-color: #c8816c; }
+.sf9b2i {color: #abd5ab; background-color: #ffffff; }
+.sf9b5i {color: #007a90; background-color: #0078d7; }
+.sf9b14i {color: #ab966b; background-color: #ffa0a0; }
+.sf9b16i {color: #a1c274; background-color: #f1e2ad; }
+.sf9b18i {color: #ab9d57; background-color: #ffaa82; }
+.sf9b19i {color: #868149; background-color: #c8816c; }
+.sf10b2i {color: #ffabab; background-color: #ffffff; }
+.sf10b5i {color: #545190; background-color: #0078d7; }
+.sf10b14i {color: #ff6b6b; background-color: #ffa0a0; }
+.sf10b16i {color: #f59774; background-color: #f1e2ad; }
+.sf10b18i {color: #ff7257; background-color: #ffaa82; }
+.sf10b19i {color: #da5749; background-color: #c8816c; }
+.sf11b2i {color: #cbcbcb; background-color: #ffffff; }
+.sf11b5i {color: #1f71b0; background-color: #0078d7; }
+.sf11b14i {color: #cb8b8b; background-color: #ffa0a0; }
+.sf11b16i {color: #c1b794; background-color: #f1e2ad; }
+.sf11b18i {color: #cb9277; background-color: #ffaa82; }
+.sf11b19i {color: #a67769; background-color: #c8816c; }
+.sf12b2i {color: #d5abab; background-color: #ffffff; }
+.sf12b5i {color: #2a5190; background-color: #0078d7; }
+.sf12b14i {color: #d56b6b; background-color: #ffa0a0; }
+.sf12b16i {color: #cc9774; background-color: #f1e2ad; }
+.sf12b18i {color: #d57257; background-color: #ffaa82; }
+.sf12b19i {color: #b15749; background-color: #c8816c; }
+.sf13b2i {color: #abd5eb; background-color: #ffffff; }
+.sf13b5i {color: #007ad0; background-color: #0078d7; }
+.sf13b14i {color: #ab96aa; background-color: #ffa0a0; }
+.sf13b16i {color: #a1c2b3; background-color: #f1e2ad; }
+.sf13b18i {color: #ab9d96; background-color: #ffaa82; }
+.sf13b19i {color: #868187; background-color: #c8816c; }
+.sf15b2i {color: #ababab; background-color: #ffffff; }
+.sf15b5i {color: #005190; background-color: #0078d7; }
+.sf15b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf15b16i {color: #a19774; background-color: #f1e2ad; }
+.sf15b18i {color: #ab7257; background-color: #ffaa82; }
+.sf15b19i {color: #865749; background-color: #c8816c; }
+.sf17b2i {color: #ababab; background-color: #ffffff; }
+.sf17b5i {color: #005190; background-color: #0078d7; }
+.sf17b14i {color: #ab6b6b; background-color: #ffa0a0; }
+.sf17b16i {color: #a19774; background-color: #f1e2ad; }
+.sf17b18i {color: #ab7257; background-color: #ffaa82; }
+.sf17b19i {color: #865749; background-color: #c8816c; }
+.sf20b2i {color: #ababd5; background-color: #ffffff; }
+.sf20b5i {color: #0051bb; background-color: #0078d7; }
+.sf20b14i {color: #ab6b96; background-color: #ffa0a0; }
+.sf20b16i {color: #a1979f; background-color: #f1e2ad; }
+.sf20b18i {color: #ab7282; background-color: #ffaa82; }
+.sf20b19i {color: #865772; background-color: #c8816c; }
+.sf21b2i {color: #abd5eb; background-color: #ffffff; }
+.sf21b5i {color: #007ad0; background-color: #0078d7; }
+.sf21b14i {color: #ab96aa; background-color: #ffa0a0; }
+.sf21b16i {color: #a1c2b3; background-color: #f1e2ad; }
+.sf21b18i {color: #ab9d96; background-color: #ffaa82; }
+.sf21b19i {color: #868187; background-color: #c8816c; }
+.ln {text-align: right; word-break: normal; color: #000000; background-color: #f0f0f0;}
+-->
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" style="width:100%;">
+<colgroup>
+<col style="width: 3.2em;" />
+<col style="width: calc(100vw / 2 - 3.2em);" />
+<col style="width: 3.2em;" />
+<col style="width: calc(100vw / 2 - 3.2em);" />
+</colgroup>
+<thead>
+<tr>
+<th colspan="2" class="title">C:\TLD-Assembly-Archive\2.44\call_analysis_cs\DynamicDecalsManager.cs</th>
+<th colspan="2" class="title">C:\TLD-Assembly-Archive\2.50\call_analysis_cs\DynamicDecalsManager.cs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="ln">55</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">55</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">56</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">sealed</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">class</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">_003C_003Ec__DisplayClass95_0</span></code></td>
+<td class="ln">56</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">sealed</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">class</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">_003C_003Ec__DisplayClass129_0</span></code></td>
+</tr>
+<tr>
+<td class="ln">57</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">57</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d1" href="#d1">58</a></td><td style="color: #000000; background-color: #e49b52; "><code><span style="color: #000000; background-color: #e49b52; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #e49b52; font-weight: bold; ">public</span><span style="color: #000000; background-color: #e49b52; ">&nbsp;</span><span style="color: #000000; background-color: #e49b52; ">DecalProjectorInstance</span><span style="color: #000000; background-color: #e49b52; ">&nbsp;</span><span style="color: #000000; background-color: #e49b52; ">decalInstance</span><span style="color: #000000; background-color: #e49b52; ">;</span></code></td>
+<td class="ln">58</td><td style="color: #000000; background-color: #e49b52; "><code><span style="color: #000000; background-color: #e49b52; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #e49b52; font-weight: bold; ">public</span><span style="color: #000000; background-color: #e49b52; ">&nbsp;</span><span style="color: #000000; background-color: #e49b52; ">DecalProjectorInstance</span><span style="color: #000000; background-color: #e49b52; ">&nbsp;</span><span style="color: #000000; background-color: #e49b52; ">dpi</span><span style="color: #000000; background-color: #e49b52; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">59</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">59</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">60</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; [</span><span class="sf3b2">DeduplicatedMethod</span><span class="sf11b2">]</span></code></td>
+<td class="ln">60</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; [</span><span class="sf3b2">DeduplicatedMethod</span><span class="sf11b2">]</span></code></td>
+</tr>
+<tr>
+<td class="ln">61</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">61</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d2" href="#d2">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">62</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">public</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;</span><span style="color: #000000; background-color: #fbf2bf; ">_003C_003Ec__DisplayClass129_0</span><span style="color: #000000; background-color: #fbf2bf; ">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">62</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">public</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;</span><span style="color: #000000; background-color: #fbf2bf; ">_003C_003Ec__DisplayClass95_0</span><span style="color: #000000; background-color: #fbf2bf; ">()</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">63</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; {</span></code></td>
+<td class="ln">63</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">64</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; }</span></code></td>
+<td class="ln">64</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">74</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">74</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">75</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">sealed</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">class</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">_003C_003Ec__DisplayClass129_0</span></code></td>
+<td class="ln">75</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">sealed</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">class</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">_003C_003Ec__DisplayClass95_0</span></code></td>
+</tr>
+<tr>
+<td class="ln">76</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">76</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d3" href="#d3">77</a></td><td style="color: #000000; background-color: #e49b52; "><code><span style="color: #000000; background-color: #e49b52; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #e49b52; font-weight: bold; ">public</span><span style="color: #000000; background-color: #e49b52; ">&nbsp;</span><span style="color: #000000; background-color: #e49b52; ">DecalProjectorInstance</span><span style="color: #000000; background-color: #e49b52; ">&nbsp;</span><span style="color: #000000; background-color: #e49b52; ">dpi</span><span style="color: #000000; background-color: #e49b52; ">;</span></code></td>
+<td class="ln">77</td><td style="color: #000000; background-color: #e49b52; "><code><span style="color: #000000; background-color: #e49b52; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #e49b52; font-weight: bold; ">public</span><span style="color: #000000; background-color: #e49b52; ">&nbsp;</span><span style="color: #000000; background-color: #e49b52; ">DecalProjectorInstance</span><span style="color: #000000; background-color: #e49b52; ">&nbsp;</span><span style="color: #000000; background-color: #e49b52; ">decalInstance</span><span style="color: #000000; background-color: #e49b52; ">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">78</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">78</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">79</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; [</span><span class="sf3b2">DeduplicatedMethod</span><span class="sf11b2">]</span></code></td>
+<td class="ln">79</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; [</span><span class="sf3b2">DeduplicatedMethod</span><span class="sf11b2">]</span></code></td>
+</tr>
+<tr>
+<td class="ln">80</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">80</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d4" href="#d4">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">81</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">public</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;</span><span style="color: #000000; background-color: #fbf2bf; ">_003C_003Ec__DisplayClass95_0</span><span style="color: #000000; background-color: #fbf2bf; ">()</span></code></td>
+</tr>
+<tr>
+<td class="ln">81</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">public</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;</span><span style="color: #000000; background-color: #fbf2bf; ">_003C_003Ec__DisplayClass129_0</span><span style="color: #000000; background-color: #fbf2bf; ">()</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">82</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; {</span></code></td>
+<td class="ln">82</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">83</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; }</span></code></td>
+<td class="ln">83</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">285</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"InitializeCommandBuffers"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">284</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"InitializeCommandBuffers"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">286</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">285</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">287</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"AddCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">286</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"AddCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d5" href="#d5">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">287</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"System.Collections.Generic.ArraySortHe<wbr>lper`1&lt;Object&gt;"</span><span style="color: #000000; background-color: #fbf2bf; ">, </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"Sort"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">288</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Queue</span><span class="sf11b2">&lt;</span><span class="sf7b2">object</span><span class="sf11b2">&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Dequeue"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">288</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Queue</span><span class="sf11b2">&lt;</span><span class="sf7b2">object</span><span class="sf11b2">&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Dequeue"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">289</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderMaskForDecal"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">289</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderMaskForDecal"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">290</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderStaticScreenSpaceDecals"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">290</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderStaticScreenSpaceDecals"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">291</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderDynamicScreenSpaceDecals"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">291</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderDynamicScreenSpaceDecals"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d6" href="#d6">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">292</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"UnityEngine.Bindings.ThrowHelper"</span><span style="color: #000000; background-color: #fbf2bf; ">, </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"ThrowNullReferenceException"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">292</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">293</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">293</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentNullException"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">294</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentNullException"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">294</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">295</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">307</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">308</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">308</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">vp_Bullet</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"SpawnImpactEffects"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">309</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">NoiseMakerEffects</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LeaveScorchMark"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">309</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">NoiseMakerEffects</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LeaveScorchMark"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d7" href="#d7">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">310</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">ArrowItem</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"MaybeSpawnImpactEffects"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">310</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">StoneItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PlayImpactEffects"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">311</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">StoneItem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PlayImpactEffects"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">311</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"AddImpactDecal"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">312</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"AddImpactDecal"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">312</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">InvisibleEntityManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PlaceFootstep"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">313</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">InvisibleEntityManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PlaceFootstep"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">319</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">null</span><span class="sf11b2">;</span></code></td>
+<td class="ln">319</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">null</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">320</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">320</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">321</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">321</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d8" href="#d8">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">322</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">PlayerManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"StartPlaceDecal"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">322</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">323</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">323</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">UnityEngine</span><span style="color: #000000; background-color: #fbf2bf; ">.</span><span style="color: #000000; background-color: #fbf2bf; ">Object</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"op_Implicit"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">324</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">ImpactDecals</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetImpactDecal"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">324</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">ImpactDecals</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetImpactDecal"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">359</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">PlayerManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"CancelPlacementMode"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">359</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">PlayerManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"CancelPlacementMode"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">360</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">10</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">360</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">10</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">361</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveDynamicDecalProjector"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">361</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveDynamicDecalProjector"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d9" href="#d9">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">362</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">List</span><span style="color: #000000; background-color: #fbf2bf; ">&lt;</span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">object</span><span style="color: #000000; background-color: #fbf2bf; ">&gt;), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"AddWithResize"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">362</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveAll"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">363</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveAll"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">363</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveDecalFromMap"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">364</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveDecalFromMap"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">364</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">NowhereToHide</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"IsCurrentExperienceMode"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">365</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">NowhereToHide</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"IsCurrentExperienceMode"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">381</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">380</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">382</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">381</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">383</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">382</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d10" href="#d10">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">383</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">DynamicDecalsManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"CreateCustomDecal"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">384</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">DynamicDecalsManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"CreateDecal"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">384</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">385</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d11" href="#d11">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">386</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">List</span><span style="color: #000000; background-color: #fbf2bf; ">&lt;</span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">object</span><span style="color: #000000; background-color: #fbf2bf; ">&gt;), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"AddWithResize"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">385</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"TrySpawnDecalObject"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">387</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"TrySpawnDecalObject"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">386</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">388</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">387</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">AddDynamicDecalProjector</span><span class="sf11b2">(</span><span class="sf3b2">DecalProjector<wbr>Instance</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decalInstance</span><span class="sf11b2">)</span></code></td>
+<td class="ln">389</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">AddDynamicDecalProjector</span><span class="sf11b2">(</span><span class="sf3b2">DecalProjector<wbr>Instance</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decalInstance</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">504</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SaveSceneData"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">504</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SaveGameSystem</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SaveSceneData"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">505</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">505</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">506</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Array</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Clear"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">506</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Array</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Clear"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d12" href="#d12">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">507</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">List</span><span style="color: #000000; background-color: #fbf2bf; ">&lt;</span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">object</span><span style="color: #000000; background-color: #fbf2bf; ">&gt;), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"AddWithResize"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">507</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SerializationUtils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SerializeObject"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">508</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SerializationUtils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SerializeObject"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">508</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">509</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">509</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">510</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">573</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Guid</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ToString"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">573</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Guid</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ToString"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">574</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ComputeDecalProjectorLifeTime"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">574</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ComputeDecalProjectorLifeTime"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">575</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"TrySpawnDecalObject"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">575</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"AddDynamicDecalProjector"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d13" href="#d13">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">576</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">2</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">576</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">3</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">577</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">DecalProjectorInstance</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">CreateCustomDecal</span><span class="sf11b2">(</span><span class="sf7b2">string</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decalName</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">pos</span><span class="sf11b2">, </span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">yaw</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">normal</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">scale</span><span class="sf11b2">, </span><span class="sf3b2">DecalProjectorType</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">projectorType</span><span class="sf11b2">, </span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">indoors</span><span class="sf11b2">, </span><span class="sf3b2">ProjectileType</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">projectileType</span><span class="sf11b2">)</span></code></td>
+<td class="ln">577</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">DecalProjectorInstance</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">CreateCustomDecal</span><span class="sf11b2">(</span><span class="sf7b2">string</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decalName</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">pos</span><span class="sf11b2">, </span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">yaw</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">normal</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">scale</span><span class="sf11b2">, </span><span class="sf3b2">DecalProjectorType</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">projectorType</span><span class="sf11b2">, </span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">indoors</span><span class="sf11b2">, </span><span class="sf3b2">ProjectileType</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">projectileType</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr>
+<td class="ln">578</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">578</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">594</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Guid</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ToString"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">594</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Guid</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ToString"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">595</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ComputeDecalProjectorLifeTime"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">595</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ComputeDecalProjectorLifeTime"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">596</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"TrySpawnDecalObject"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">596</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"AddDynamicDecalProjector"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d14" href="#d14">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">597</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">3</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">597</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">4</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">598</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">DecalProjectorInstance</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">CreateDecal</span><span class="sf11b2">(</span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">pos</span><span class="sf11b2">, </span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">yaw</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">normal</span><span class="sf11b2">, </span><span class="sf7b2">int</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">uvRectangleIndex</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">scale</span><span class="sf11b2">, </span><span class="sf3b2">DecalProjectorType</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">projectorType</span><span class="sf11b2">, </span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">indoors</span><span class="sf11b2">)</span></code></td>
+<td class="ln">598</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">DecalProjectorInstance</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">CreateDecal</span><span class="sf11b2">(</span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">pos</span><span class="sf11b2">, </span><span class="sf7b2">float</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">yaw</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">normal</span><span class="sf11b2">, </span><span class="sf7b2">int</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">uvRectangleIndex</span><span class="sf11b2">, </span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">scale</span><span class="sf11b2">, </span><span class="sf3b2">DecalProjectorType</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">projectorType</span><span class="sf11b2">, </span><span class="sf7b2">bool</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">indoors</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr>
+<td class="ln">599</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">599</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">695</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">null</span><span class="sf11b2">;</span></code></td>
+<td class="ln">695</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">null</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr>
+<td class="ln">696</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">696</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">697</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">697</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d15" href="#d15">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">698</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">ContainsInvalidInstructions</span><span style="color: #000000; background-color: #fbf2bf; ">]</span></code></td>
+</tr>
+<tr>
+<td class="ln">698</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf3b2">ContainsUnimplementedInstructions</span><span class="sf11b2">]</span></code></td>
+<td class="ln">699</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf3b2">ContainsUnimplementedInstructions</span><span class="sf11b2">]</span></code></td>
+</tr>
+<tr>
+<td class="ln">699</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">700</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">700</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">6</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">738</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">738</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr>
+<td class="ln">739</td><td class="sf3b2"><code>&nbsp;</code></td>
+<td class="ln">739</td><td class="sf3b2"><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">740</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf3b2">ContainsUnimplementedInstructions</span><span class="sf11b2">]</span></code></td>
+<td class="ln">740</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf3b2">ContainsUnimplementedInstructions</span><span class="sf11b2">]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d16" href="#d16">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">741</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CalledBy</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">DynamicDecalsManager</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"PrepareCommandBuffer"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">741</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">0</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">742</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">742</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Remove"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">743</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;</span><span class="sf7b2">object</span><span class="sf11b2">&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Remove"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">743</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveAll"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">744</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveAll"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d17" href="#d17">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">745</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">List</span><span style="color: #000000; background-color: #fbf2bf; ">&lt;</span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">object</span><span style="color: #000000; background-color: #fbf2bf; ">&gt;), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"AddWithResize"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">744</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveDecalFromMap"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">746</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RemoveDecalFromMap"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">745</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">747</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">746</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">ReturnDecalProjectorInstanceToPool</span><span class="sf11b2">(</span><span class="sf3b2">Deca<wbr>lProjectorInstance</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">dpi</span><span class="sf11b2">)</span></code></td>
+<td class="ln">748</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">ReturnDecalProjectorInstanceToPool</span><span class="sf11b2">(</span><span class="sf3b2">Deca<wbr>lProjectorInstance</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">dpi</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">794</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">UnityEngine</span><span style="color: #000000; background-color: #fbf2bf; ">.</span><span style="color: #000000; background-color: #fbf2bf; ">Object</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"op_Implicit"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">795</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Quaternion</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_eulerAngles"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr>
+<td class="ln">796</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Quaternion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Multiply"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">795</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Quaternion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Multiply"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d18" href="#d18">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">796</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Quaternion</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_eulerAngles"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">797</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"UnityEngine.Bindings.ThrowHelper"</span><span style="color: #000000; background-color: #fbf2bf; ">, </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"ThrowNullReferenceException"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">797</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">10</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">798</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">10</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">798</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">CalculateDecalTransform</span><span class="sf11b2">(</span><span class="sf3b2">DecalProjectorI<wbr>nstance</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decal</span><span class="sf11b2">, </span><span class="sf3b2">DecalProjectorMaskData</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">mask</span><span class="sf11b2">, </span><span class="sf7b2">out</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">position</span><span class="sf11b2">, </span><span class="sf7b2">out</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Quaternion</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">rotation</span><span class="sf11b2">, </span><span class="sf7b2">out</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">scale</span><span class="sf11b2">)</span></code></td>
+<td class="ln">799</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">CalculateDecalTransform</span><span class="sf11b2">(</span><span class="sf3b2">DecalProjectorI<wbr>nstance</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decal</span><span class="sf11b2">, </span><span class="sf3b2">DecalProjectorMaskData</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">mask</span><span class="sf11b2">, </span><span class="sf7b2">out</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">position</span><span class="sf11b2">, </span><span class="sf7b2">out</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Quaternion</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">rotation</span><span class="sf11b2">, </span><span class="sf7b2">out</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">Vector3</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">scale</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr>
+<td class="ln">799</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">800</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">805</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf3b2">ContainsUnimplementedInstructions</span><span class="sf11b2">]</span></code></td>
+<td class="ln">806</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf3b2">ContainsUnimplementedInstructions</span><span class="sf11b2">]</span></code></td>
+</tr>
+<tr>
+<td class="ln">806</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PrepareCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">807</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PrepareCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">807</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">808</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d19" href="#d19">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">809</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Camera</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_fieldOfView"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">808</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Utils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Approximately"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">810</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Utils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Approximately"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d20" href="#d20">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">811</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Component</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_transform"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">809</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;</span><span class="sf7b2">object</span><span class="sf11b2">&gt;.</span><span class="sf3b2">Enumerator</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"MoveNext"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">812</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;</span><span class="sf7b2">object</span><span class="sf11b2">&gt;.</span><span class="sf3b2">Enumerator</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"MoveNext"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">810</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderDynamicDecal"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">813</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderDynamicDecal"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">811</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">814</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">812</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">10</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">815</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UnityEngine.Bindings.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowNullReferenceException"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d21" href="#d21">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">816</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">6</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">813</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">int</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">RenderDynamicScreenSpaceDecals</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">camera</span><span class="sf11b2">, </span><span class="sf3b2">List</span><span class="sf11b2">&lt;</span><span class="sf3b2">DecalProjectorInstance</span><span class="sf11b2">&gt; </span><span class="sf3b2">instances</span><span class="sf11b2">, </span><span class="sf7b2">int</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">renderedDecalCount</span><span class="sf11b2">)</span></code></td>
+<td class="ln">817</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">int</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">RenderDynamicScreenSpaceDecals</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">camera</span><span class="sf11b2">, </span><span class="sf3b2">List</span><span class="sf11b2">&lt;</span><span class="sf3b2">DecalProjectorInstance</span><span class="sf11b2">&gt; </span><span class="sf3b2">instances</span><span class="sf11b2">, </span><span class="sf7b2">int</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">renderedDecalCount</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr>
+<td class="ln">814</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">818</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">815</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf10b2">0</span><span class="sf11b2">;</span></code></td>
+<td class="ln">819</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="sf7b2">return</span><span class="sf11b2">&nbsp;</span><span class="sf10b2">0</span><span class="sf11b2">;</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">830</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">RenderTargetIdentifier</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">".ctor"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">832</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">RenderTargetIdentifier</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">".ctor"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">831</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DrawMesh"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">833</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DrawMesh"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">832</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">13</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">834</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UnityEngine.Bindings.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowNullReferenceException"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d22" href="#d22">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">835</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">14</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">833</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">RenderDynamicDecal</span><span class="sf11b2">(</span><span class="sf3b2">DecalProjectorInstan<wbr>ce</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decal</span><span class="sf11b2">, </span><span class="sf3b2">DecalProjectorMaskData</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">maskData</span><span class="sf11b2">, </span><span class="sf3b2">RenderDecalParameters</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">parameters</span><span class="sf11b2">, </span><span class="sf7b2">ref</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">int</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">renderedDecalCount</span><span class="sf11b2">)</span></code></td>
+<td class="ln">836</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">RenderDynamicDecal</span><span class="sf11b2">(</span><span class="sf3b2">DecalProjectorInstan<wbr>ce</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decal</span><span class="sf11b2">, </span><span class="sf3b2">DecalProjectorMaskData</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">maskData</span><span class="sf11b2">, </span><span class="sf3b2">RenderDecalParameters</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">parameters</span><span class="sf11b2">, </span><span class="sf7b2">ref</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">int</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">renderedDecalCount</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr>
+<td class="ln">834</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">837</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">835</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">838</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">839</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">842</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">840</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_fieldOfView"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">843</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_fieldOfView"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">841</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Utils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Approximately"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">844</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Utils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Approximately"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d23" href="#d23">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">845</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Component</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_transform"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">842</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Quaternion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Multiply"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">846</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Quaternion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Multiply"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">843</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetTemporaryRT"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">847</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetTemporaryRT"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">844</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">RenderTargetIdentifier</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"op_Implicit"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">852</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DrawMesh"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">854</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DrawMesh"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">853</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Material</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_mainTexture"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">855</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Material</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_mainTexture"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">854</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DecalRenderBatch</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">".ctor"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">856</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DecalRenderBatch</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">".ctor"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d24" href="#d24">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">857</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">List</span><span style="color: #000000; background-color: #fbf2bf; ">&lt;</span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">object</span><span style="color: #000000; background-color: #fbf2bf; ">&gt;), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"AddWithResize"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">855</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">MaterialPropertyBlock</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetFloatArray"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">858</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">MaterialPropertyBlock</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetFloatArray"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">856</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">MaterialPropertyBlock</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetVectorArray"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">859</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">MaterialPropertyBlock</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetVectorArray"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">857</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DrawMeshInstanced"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">860</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DrawMeshInstanced"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">858</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Debug</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LogWarning"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">861</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Debug</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"LogWarning"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d25" href="#d25">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">862</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"UnityEngine.Bindings.ThrowHelper"</span><span style="color: #000000; background-color: #fbf2bf; ">, </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"ThrowNullReferenceException"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">859</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">863</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">860</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">864</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">861</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">16</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">865</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">16</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">867</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderDynamicDecal"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">871</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderDynamicDecal"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">868</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderStaticScreenSpaceDecals"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">872</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"RenderStaticScreenSpaceDecals"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">869</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">873</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d26" href="#d26">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">874</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">LightmapSettings</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_lightProbes"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">870</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Utils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetSHCoefficients"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">875</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Utils</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"SetSHCoefficients"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">871</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">6</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">876</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UnityEngine.Bindings.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowNullReferenceException"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d27" href="#d27">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">877</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">4</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">872</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">UpdateCommandBufferLightProbeSettings</span><span class="sf11b2">(</span><span class="sf3b2">C<wbr>ommandBuffer</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">commandBuffer</span><span class="sf11b2">, </span><span class="sf3b2">Bounds</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decalBounds</span><span class="sf11b2">)</span></code></td>
+<td class="ln">878</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">UpdateCommandBufferLightProbeSettings</span><span class="sf11b2">(</span><span class="sf3b2">C<wbr>ommandBuffer</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">commandBuffer</span><span class="sf11b2">, </span><span class="sf3b2">Bounds</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decalBounds</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr>
+<td class="ln">873</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">879</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">874</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">880</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">896</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Matrix4x4</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_inverse"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">902</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Matrix4x4</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_inverse"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">897</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Matrix4x4</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Multiply"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">903</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Matrix4x4</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Multiply"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">898</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Matrix4x4</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Ortho"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">904</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Matrix4x4</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Ortho"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d28" href="#d28">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">905</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Component</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"GetComponentsInChildren"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">899</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">LODGroup</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_lodCount"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">906</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">LODGroup</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_lodCount"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">900</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">LODGroup</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetLODs"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">907</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">LODGroup</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetLODs"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">901</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">List</span><span class="sf11b2">&lt;&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Remove"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">908</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Array</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"IndexOf"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d29" href="#d29">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">909</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">List</span><span style="color: #000000; background-color: #fbf2bf; ">&lt;</span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">object</span><span style="color: #000000; background-color: #fbf2bf; ">&gt;), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"Remove"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">902</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Renderer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_shadowCastingMode"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">910</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Renderer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_shadowCastingMode"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">903</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Component</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetComponent"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">911</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Component</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetComponent"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">904</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">MeshFilter</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_sharedMesh"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">912</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">MeshFilter</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_sharedMesh"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">905</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Mesh</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_subMeshCount"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">913</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Mesh</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_subMeshCount"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d30" href="#d30">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">914</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Component</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_transform"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">915</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Transform</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_localToWorldMatrix"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">906</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DrawMesh"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">916</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">CommandBuffer</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"DrawMesh"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">907</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"IncrementMaskTextureIndex"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">917</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"IncrementMaskTextureIndex"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d31" href="#d31">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">918</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"UnityEngine.Bindings.ThrowHelper"</span><span style="color: #000000; background-color: #fbf2bf; ">, </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"ThrowNullReferenceException"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">908</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">919</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowArgumentOutOfRange_IndexException<wbr>"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">909</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"System.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowInvalidOperationException_Invalid<wbr>Operation_EnumFailedVersion"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">920</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">63</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">910</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsDeduplicatedMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">1</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">927</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">936</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">3</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">928</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Quaternion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_eulerAngles"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">937</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Quaternion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"get_eulerAngles"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">929</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Component</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetComponentInParent"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">938</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Component</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"GetComponentInParent"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d32" href="#d32">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">939</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Component</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_transform"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">940</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Transform</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"get_worldToLocalMatrix"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">930</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Quaternion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Multiply"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">941</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Quaternion</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"op_Multiply"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d33" href="#d33">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">942</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">List</span><span style="color: #000000; background-color: #fbf2bf; ">&lt;</span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">object</span><span style="color: #000000; background-color: #fbf2bf; ">&gt;), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"AddWithResize"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">931</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Queue</span><span class="sf11b2">&lt;</span><span class="sf7b2">object</span><span class="sf11b2">&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Enqueue"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">943</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Queue</span><span class="sf11b2">&lt;</span><span class="sf7b2">object</span><span class="sf11b2">&gt;), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Enqueue"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">932</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">4</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">944</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"UnityEngine.Bindings.ThrowHelper"</span><span class="sf11b2">, </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"ThrowNullReferenceException"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">933</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">19</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">945</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsDeduplicatedMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">1</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d34" href="#d34">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">946</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">CallsUnknownMethods</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Count</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">15</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">934</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">CollectMasks</span><span class="sf11b2">(</span><span class="sf3b2">DecalProjectorInstance</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decal</span><span class="sf11b2">)</span></code></td>
+<td class="ln">947</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">private</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">CollectMasks</span><span class="sf11b2">(</span><span class="sf3b2">DecalProjectorInstance</span><span class="sf11b2">&nbsp;</span><span class="sf3b2">decal</span><span class="sf11b2">)</span></code></td>
+</tr>
+<tr>
+<td class="ln">935</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+<td class="ln">948</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; {</span></code></td>
+</tr>
+<tr>
+<td class="ln">936</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+<td class="ln">949</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; }</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln">945</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PrepareCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">958</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">DynamicDecalsManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"PrepareCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">946</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SnowPatchManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Start"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">959</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CalledBy</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">SnowPatchManager</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"Start"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">947</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">960</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallerCount</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">2</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln"><a name="d35" href="#d35">.</a></td><td style="color: #000000; background-color: #e9e9e9; "><code>&nbsp;</code></td>
+<td class="ln">961</td><td style="color: #000000; background-color: #fbf2bf; "><code><span style="color: #000000; background-color: #fbf2bf; ">&nbsp; &nbsp; [</span><span style="color: #000000; background-color: #fbf2bf; ">Calls</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">Type</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; font-weight: bold; ">typeof</span><span style="color: #000000; background-color: #fbf2bf; ">(</span><span style="color: #000000; background-color: #fbf2bf; ">CommandBuffer</span><span style="color: #000000; background-color: #fbf2bf; ">), </span><span style="color: #000000; background-color: #fbf2bf; ">Member</span><span style="color: #000000; background-color: #fbf2bf; ">&nbsp;= </span><span style="color: #000000; background-color: #fbf2bf; ">"set_name"</span><span style="color: #000000; background-color: #fbf2bf; ">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">948</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"AddCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">962</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">Calls</span><span class="sf11b2">(</span><span class="sf3b2">Type</span><span class="sf11b2">&nbsp;= </span><span class="sf7b2">typeof</span><span class="sf11b2">(</span><span class="sf3b2">Camera</span><span class="sf11b2">), </span><span class="sf3b2">Member</span><span class="sf11b2">&nbsp;= </span><span class="sf12b2">"AddCommandBuffer"</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">949</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">10</span><span class="sf11b2">)]</span></code></td>
+<td class="ln">963</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; [</span><span class="sf8b2">CallsUnknownMethods</span><span class="sf11b2">(</span><span class="sf3b2">Count</span><span class="sf11b2">&nbsp;= </span><span class="sf10b2">6</span><span class="sf11b2">)]</span></code></td>
+</tr>
+<tr>
+<td class="ln">950</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">InitializeCommandBuffers</span><span class="sf11b2">()</span></code></td>
+<td class="ln">964</td><td class="sf3b2"><code><span class="sf11b2">&nbsp; &nbsp; </span><span class="sf7b2">public</span><span class="sf11b2">&nbsp;</span><span class="sf7b2">void</span><span class="sf11b2">&nbsp;</span><span class="sf8b2">InitializeCommandBuffers</span><span class="sf11b2">()</span></code></td>
+</tr>
+<tr height=1><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td><td style="background-color: black"></td></tr>
+<tr>
+<td class="ln"></td><td></td>
+<td class="ln"></td><td></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
